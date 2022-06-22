@@ -1,0 +1,25 @@
+version: '3.0'
+services:
+  database:
+    image: mysql:5.7
+    container_name: devops-mysql
+    environment:
+      MYSQL_DATABASE: 'testf'
+      MYSQL_ALLOW_EMPTY_PASSWORD: "true"
+    ports:
+      - '33006:3306'
+    volumes:
+     - './.mysql-data/db:/var/lib/mysql'
+    networks:
+      devops-network:
+
+  gestf:
+    build:
+      context: .
+    depends_on:
+      - database
+    network_mode: host
+
+networks:
+  devops-network:
+    driver: bridge

@@ -1,0 +1,56 @@
+2022-02-11 11:38:34.161  INFO 16904 --- [restartedMain] com.esprit.examen.GesFApplication        : Starting GesFApplication using Java 1.8.0_111 on DESKTOP-MQP8VH2 with PID 16904 (C:\Users\Nizar\Desktop\Esprit\DevOps\tools\GesFormation\GesFormation\target\classes started by Nizar in C:\Users\Nizar\Desktop\Esprit\DevOps\tools\GesFormation\GesFormation)
+2022-02-11 11:38:34.161  INFO 16904 --- [restartedMain] com.esprit.examen.GesFApplication        : No active profile set, falling back to default profiles: default
+2022-02-11 11:38:34.618  INFO 16904 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 11:38:34.618  INFO 16904 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 11:38:34.648  INFO 16904 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-02-11 11:38:34.709  INFO 16904 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 11:38:34.720  INFO 16904 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-11 11:38:34.827  INFO 16904 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 11:38:35.085  WARN 16904 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-11 11:38:35.375  INFO 16904 --- [restartedMain] com.esprit.examen.GesFApplication        : Started GesFApplication in 1.261 seconds (JVM running for 88.254)
+2022-02-11 11:38:35.402  INFO 16904 --- [restartedMain] com.esprit.examen.config.LoggingAspect   : méthode : deleteAll exécutée avec succès
+2022-02-11 11:38:35.403  INFO 16904 --- [restartedMain] com.esprit.examen.services.CoursService  : In addCours()
+2022-02-11 11:38:35.409  INFO 16904 --- [restartedMain] com.esprit.examen.config.LoggingAspect   : méthode : addCours exécutée avec succès
+2022-02-11 11:39:04.122  INFO 1360 --- [restartedMain] com.esprit.examen.GesFApplication        : Starting GesFApplication using Java 1.8.0_111 on DESKTOP-MQP8VH2 with PID 1360 (C:\Users\Nizar\Desktop\Esprit\DevOps\tools\GesFormation\GesFormation\target\classes started by Nizar in C:\Users\Nizar\Desktop\Esprit\DevOps\tools\GesFormation\GesFormation)
+2022-02-11 11:39:04.123  INFO 1360 --- [restartedMain] com.esprit.examen.GesFApplication        : No active profile set, falling back to default profiles: default
+2022-02-11 11:39:06.308  INFO 1360 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 11:39:06.309  INFO 1360 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 11:39:06.433  INFO 1360 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-02-11 11:39:06.802  INFO 1360 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 11:39:06.885  INFO 1360 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 11:39:07.144  INFO 1360 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 11:39:07.585  INFO 1360 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-11 11:39:08.709  INFO 1360 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 11:39:09.499  WARN 1360 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-11 11:39:10.156  WARN 1360 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : Unable to start LiveReload server
+2022-02-11 11:39:10.184  WARN 1360 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.context.ApplicationContextException: Failed to start bean 'webServerStartStop'; nested exception is org.springframework.boot.web.server.PortInUseException: Port 8081 is already in use
+2022-02-11 11:39:10.212  INFO 1360 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2022-02-11 11:39:10.260 ERROR 1360 --- [restartedMain] o.s.b.d.LoggingFailureAnalysisReporter   : 
+
+***************************
+APPLICATION FAILED TO START
+***************************
+
+Description:
+
+Web server failed to start. Port 8081 was already in use.
+
+Action:
+
+Identify and stop the process that's listening on port 8081 or configure this application to listen on another port.
+
+2022-02-11 11:39:16.027  INFO 13952 --- [restartedMain] com.esprit.examen.GesFApplication        : Starting GesFApplication using Java 1.8.0_111 on DESKTOP-MQP8VH2 with PID 13952 (C:\Users\Nizar\Desktop\Esprit\DevOps\tools\GesFormation\GesFormation\target\classes started by Nizar in C:\Users\Nizar\Desktop\Esprit\DevOps\tools\GesFormation\GesFormation)
+2022-02-11 11:39:16.028  INFO 13952 --- [restartedMain] com.esprit.examen.GesFApplication        : No active profile set, falling back to default profiles: default
+2022-02-11 11:39:18.263  INFO 13952 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2022-02-11 11:39:18.264  INFO 13952 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.56]
+2022-02-11 11:39:18.390  INFO 13952 --- [restartedMain] o.a.c.c.C.[.[localhost].[/SpringMVC]     : Initializing Spring embedded WebApplicationContext
+2022-02-11 11:39:18.777  INFO 13952 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2022-02-11 11:39:18.857  INFO 13952 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.6.4.Final
+2022-02-11 11:39:19.113  INFO 13952 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2022-02-11 11:39:19.536  INFO 13952 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.MySQL5InnoDBDialect
+2022-02-11 11:39:20.725  INFO 13952 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2022-02-11 11:39:21.486  WARN 13952 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2022-02-11 11:39:22.167  INFO 13952 --- [restartedMain] com.esprit.examen.GesFApplication        : Started GesFApplication in 6.766 seconds (JVM running for 8.105)
+2022-02-11 11:39:22.712  INFO 13952 --- [restartedMain] com.esprit.examen.config.LoggingAspect   : méthode : deleteAll exécutée avec succès
+2022-02-11 11:39:22.713  INFO 13952 --- [restartedMain] com.esprit.examen.services.CoursService  : In addCours()
+2022-02-11 11:39:22.730  INFO 13952 --- [restartedMain] com.esprit.examen.config.LoggingAspect   : méthode : addCours exécutée avec succès
